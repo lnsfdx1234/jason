@@ -1,0 +1,1326 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal 13px arial;
+	text-align: left;
+	color: #333;
+	background: #ececec;
+	text-shadow: #fff;
+}
+
+ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+a img {
+	border: 0;
+	vertical-align: middle;
+	padding-bottom:1px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	
+}
+
+.clear {
+	clear: both;
+}
+
+.sizeZero {
+    width: 0px;
+    height: 0px;
+}
+
+.floatLeft {
+	float: left !important;
+}
+
+.floatRight {
+	float: right !important;
+}
+
+.textRight {
+	text-align: right;
+}
+
+.hide {
+	display: none;
+}
+
+
+/*
+* Header Iages
+*/
+#newAccountNavigation ul.step1 {
+    background: url(images/workingFlowStep1.png) no-repeat;
+}
+
+#newAccountNavigation ul.step2 {
+    background: url(images/workingFlowStep2.png) no-repeat;
+}
+
+#newAccountNavigation ul.step3 {
+    background: url(images/workingFlowStep4.png) no-repeat;
+}
+
+#newAccountNavigation ul.step4 {
+    background: url(images/workingFlowStep4.png) no-repeat;
+}
+
+
+/*
+* home page font style start
+*/
+.advisorName {
+	font-size: 22px;
+	color: #333;
+	font-weight: bold;
+	text-shadow: #fff;
+}
+
+/*
+* home page font style end
+*/
+.processInactiveTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #999;
+}
+
+.processActiveTitle {
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+}
+
+
+.pageTitleLgB {
+    color: #2A6892;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.pageTitleLgB .ownerName {
+    color: #333333;
+}    
+        
+.pageTitle {
+	color: #2a6892;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.subPageTitle {
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 20px;
+}
+
+.subPageTitleAlign {
+	padding-left:4px;
+	margin-left:8px;
+	font-family:Arial;
+}
+
+.titleMdB {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.titleMd {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.textXXXlg {
+	font-size: 35px;
+	color: #333;
+	text-shadow: #fff;
+}
+
+.textXXlg {
+	font-size: 35px;
+}
+
+.textMdB {
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+.textMd {
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+}
+
+.textXSm {
+	font-size: 8px;
+}
+
+.greyText{
+    color: grey;
+}
+
+input[type="text"].defaultText {
+}
+
+#container {
+	position: relative;
+	overflow: hidden;
+	background: url(images/bgSectionWrap.png) no-repeat 0 100%;
+	padding: 11px 3px 0;
+	width: 988px;
+	margin: -4px auto 0;
+	padding: 0 0 4px;
+}
+
+#section {
+	background: url(images/bgSection.png) repeat-y 0 100%;
+	padding: 11px 3px 0;
+	position: relative;
+	overflow: hidden;
+	height: 594px;
+}
+
+/*
+* font style end
+*/
+.requiredPrompt {
+	float: left;
+	color: red;
+	width: 8px;
+	margin-top: -3px;
+	height: 20px;
+	line-height:20px;
+	margin-right: 2px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+
+#footer {
+	width: 988px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: url(images/bgFooter.png) no-repeat scroll 50% 0 transparent;
+}
+
+#footer p {
+	margin-left: 37px;
+	text-align: left;
+}
+
+
+/*button2*/
+a.button2 {
+	background: transparent url(images/buttonHoverBg.png) no-repeat
+		top left;
+	display: block;
+	margin-right: 10px;
+	float: left;
+	font: normal 13px Tahoma;
+	line-height: 16px;
+	height: 30px;
+	padding-left: 11px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+a:link.button2,a:visited.button2 {
+	color: #494949;
+}
+
+a:active.button2 {
+	color: #494949;
+}
+
+a.button2 span {
+	background: transparent url(images/buttonBg.png) no-repeat top
+		right;
+	float: left;
+	padding: 7px 15px 4px 5px;
+	height: 100%;
+	cursor:pointer;
+}
+
+a.button2:hover {
+	background-position: bottom left;
+	height:30px;
+}
+
+a.button2:hover span {
+	background-position: bottom right;
+	height: 100%;
+	max-height: 19px;
+}
+
+a.button2:active {
+	background-position: bottom left;
+	color: #ffffff;
+	max-height:30px;
+}
+
+a.button2:active span {
+	background-position: bottom right;
+	color: #ffffff;
+	max-height:19px;
+}
+/*  Blue Button */
+a.button1 {
+	background: transparent url(images/blueButtonHoverBg.png) no-repeat
+		top left;
+	display: block;
+	margin-right: 6px;
+	font: normal 13px Tahoma;
+	line-height: 16px;
+	height: 30px;
+	padding-left: 11px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+a:link.button1,a:visited.button1 {
+	color: #ffffff;
+}
+
+a:active.button1 {
+	color: white;
+}
+
+a.button1 span {
+	background: transparent url(images/blueButtonbg.png) no-repeat top
+		right;
+	float: left;
+	padding: 7px 15px 4px 5px;
+	height: 100%;
+	cursor:pointer;
+}
+
+a.button1:hover {
+	background-position: bottom left;
+	height:30px;
+}
+
+a.button1:hover span {
+	background-position: bottom right;
+	height: 100%;
+	max-height: 19px;
+}
+
+a.button1:active {
+	background-position: bottom left;
+	color: #ffffff;
+	max-height:31px;
+}
+
+a.button1:active span {
+	background-position: bottom right;
+	color: #ffffff;
+	max-height:19px;
+}
+/* Disabled Button */
+a.buttonDisabled {
+	background: transparent url(images/buttonHoverBg.png) no-repeat top left;
+	display: block;
+	margin-right: 10px;
+	font: normal 13px Tahoma;
+	line-height: 16px;
+	height: 30px;
+	padding-left: 11px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+a:link.buttonDisabled, a:visited.buttonDisabled {
+	color: #CCCCCC;
+	cursor: default;
+}
+
+a.buttonDisabled span {
+	background: transparent url(images/buttonBg.png) no-repeat top right;
+	float: left;
+	padding: 7px 15px 4px 5px;
+	height: 100%;
+	cursor: default;
+}
+.overlayWapper {
+	display: none;
+}
+
+.closeIcon{
+	 padding-right:5px;
+	 vertical-align:middle;
+	}
+
+/* scroll bar start */
+.jspContainer {
+	overflow: hidden;
+	position: relative;
+}
+
+.disableClickableImageClass {
+}
+.jspPane {
+	position: absolute;
+}
+
+.jspVerticalBar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 23px;
+	height: 100%;
+}
+
+.jspCap {
+	display: none;
+}
+
+.jspTrack {
+	background: url(images/scrollBarBg.png) no-repeat;
+	position: relative;
+	width: 22px;
+	height: 510px;
+}
+
+.jspDrag {
+	position: relative;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+.jspDragTop {
+	background: url(images/bgScrollpaneDrag.png) no-repeat 50% 2px;
+	height: 52%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+}
+
+.jspDragBottom {
+	background: url(images/bgScrollpaneDrag.png) no-repeat 50% 100%;
+	height: 52%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.jspArrow {
+	background: #50506d;
+	text-indent: -20000px;
+	display: block;
+	cursor: pointer;
+}
+
+.jspArrow.jspDisabled {
+	cursor: default;
+	background: #80808d;
+}
+
+.jspVerticalBar .jspArrow:focus {
+	outline: none;
+}
+
+.jspCorner {
+	background: #eeeef4;
+	float: left;
+	height: 100%;
+}
+/* scroll bar end */
+
+ 
+#newAccountNoBgContainer .ui-scroll-bar-scroll-top,
+#newAccountNoBgContainer .ui-scroll-bar-scroll-middle,
+#newAccountNoBgContainer .ui-scroll-bar-scroll-bottom
+{
+    background-image: url(images/scrollpaneScrollGreyDrag.png);
+}
+
+
+/* datasheet start */
+.dataSheetHeader {
+	background: #e3e4e3 url(images/bgClientHeader.gif) repeat-x;
+}
+
+.dataSheetHeader table {
+	width: 100%;
+}
+
+.dataSheetHeader table th {
+	font-size: 11px;
+	color: #333;
+	height: 26px;
+	line-height: 26px;
+	padding: 0 4px;
+	text-align: left;
+}
+
+.dataSheetBody table.generalTable {
+	width: 100%;
+	table-layout: fixed;
+}
+
+.dataSheetBody table.generalTable td {
+	padding: 4px;
+	border-bottom: 1px solid #ccc;
+	background: none;
+}
+
+.dataSheetBody table tr.first td {
+	border-top: none;
+}
+
+.dataSheetBody table tr.last td {
+	border-bottom: none;
+}
+
+.dataSheetBody table td {
+	color: #333;
+	font-size: 12px;
+}
+
+/* datasheet end */
+
+/* input style */
+.input{
+	float:left;
+}
+.input input {
+	border: 0;
+	height: 22px;
+	margin-top: 3px;
+	display: inline-block;
+	float: left;
+	color: #666;
+	font: 13px arial;
+	padding:0 1px;
+	vertical-align: middle;
+	line-height: 22px;
+}
+
+.errorInput{
+	border:1px solid #f00 !important;
+	margin: -1px; /* counter the border so layout doesn't shift */
+}
+
+.errorShow{
+	color:red;
+}
+.errorMessage{
+	font-size:12px;
+	text-shadow:1px 1px 1px #fff;
+	color:#f00;
+	text-align: left;
+}
+
+.leftInput {
+	background: url(images/bgLeftInput.png) left center no-repeat;
+	height: 28px;
+	width: 5px;
+	float: left;
+}
+
+.rightInput {
+	background: url(images/bgRightInput.png) center right no-repeat;
+	height: 28px;
+	width: 8px;
+	float: left;
+}
+
+.middleInput {
+	background: url(images/bgMiddleInput.png) center center repeat-x;
+	height: 28px; 
+	float: left;
+}
+
+/*-------- check style --------*/
+.checkInuse,.checked,.uncheck{width:20px;height:20px;vertical-align:middle;display:inline-block;}
+.checked{background:url(images/checkboxchecked.png) center center;}
+.uncheck{background:url(images/checkboxunchecked.png) center center;}
+.checkInuse{background:url(images/checkboxinuse.png) center center;}
+/*-------- check style --------*/
+
+
+/* input style end */
+/*---------- dropdownlist  style start ----------*/
+.selectbox {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	float: left
+}
+
+
+.ulist {
+	background-color: #f2f2f2;
+	list-style: none;
+	line-height: 22px;
+	border: 1px solid #dedfde;
+	border-top: none;
+	display: block;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	top: 24px;
+	left: 0px;
+	z-index: 200;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+
+.ulist li {
+	border: none;
+	font-size: 10px;
+	padding: 0px;
+}
+
+.ulist li a {
+	display: block;
+	text-decoration: none;
+	padding-left: 6px;
+	color: #666;
+	font-size: 12px;
+}
+
+.ulist li a.disabled {
+	color: #999;
+}
+
+.ulist li a:hover {
+	display: block;
+	background: #d6e5f2;
+	text-decoration: none;
+	color: #3baae5;
+	font-size: 12px;
+}
+
+.ulist li a:active {
+	color: #cdcdcd
+}
+
+input.menu {
+	background: url(images/selectbg.png) right center;
+	border: 1px solid #dddddd;
+	height: 24px !important;
+	height: 22px;
+	cursor: pointer;
+	padding-left: 5px;
+	font: 12px arial;
+	vertical-align: middle;
+	line-height: 24px;
+	color: #666;
+}
+
+.infoList li .ulist li {
+	padding: 0px;;
+	text-align: left;
+}
+
+/*---------- dropdownlist  style end ----------*/
+
+/*------- radio button style --------*/
+.standardRadio {
+	float: left;
+	margin-top: -8px; /* Middle Align to text line (label) */
+}
+
+.buttonUnSelected {
+	background: url(images/buttonUnSelected.png) center center no-repeat;
+	width: 51px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	display: inline-block;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.buttonSelected {
+	background: url(images/buttonSelected.png) center center no-repeat;
+	width: 51px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	display: inline-block;
+	margin: 0 4px;
+	cursor: pointer;
+}
+
+.buttonSelected input, .buttonUnSelected input { /* Hides the actual radio button */ 
+	height: 0px;
+	width: 0px; 
+}
+@-moz-document url-prefix() { /* Firefox specific for a bug in the autocomplete that forces radio buttons to display */
+	.buttonSelected input, .buttonUnSelected input {
+		display: none;
+	}
+}
+
+/*------- radio button style --------*/
+
+/*------- mask style --------*/
+.custom-mask {
+	background: scroll 50% 50% #39414A;
+	opacity: 0.3;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: auto;
+	filter: alpha(opacity =     30);
+}
+
+/*------- mask style --------*/
+
+
+/*------- check box style --------*/
+span.checkboxChecked{
+	background: url(images/checkbox2checked.png) no-repeat center;
+	height: 20px;
+	width:20px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+span.checkboxUnchecked{
+	background: url(images/checkbox2unchecked.png) no-repeat center;
+	height: 20px ;
+	width:20px ;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+input.checkbox{
+	height:20px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	width:20px;
+	visibility:visible;
+}
+
+/*------- select style --------*/
+
+.standardDropdown{
+	position: relative;
+	background: url(images/selectbg1.png) right center;
+	*+background: url(images/selectbg2.png) right center;
+	float:left;
+	height: 26px !important;
+	padding-top:2px;
+	overflow:hidden;
+}
+
+.disabledDropdown{
+	background: url(images/disabledDropdownBg1.png) right center;
+	*+background: url(images/disabledDropdownBg2.png) right center;
+}
+
+.standardDropdownDiv{
+    border:1px dotted #000;
+    position:absolute;
+	z-index:1000;
+	display:inline-block;
+}
+
+span.selectContent {
+	position: absolute;
+	color: #666;
+	left: 0;
+	top:0;
+	line-height: 26px;
+	text-indent: 5px;
+	cursor: default;
+	display:inline-block;
+	height: 26px !important;
+	width:100%;
+	border:1px solid #ccc;
+	border-right:none;
+	visibility:visible;
+	font-size:13px;
+	font-family:Arial;
+}
+
+.selectContent > span{
+	display:block;
+	white-space:nowrap;
+	margin-right:25px;
+	overflow:hidden;
+}
+select.selectDropdownBox {
+	font-size:13px;
+	font-family:Arial;
+	position: absolute;
+	height: 26px !important;
+	opacity:0;
+	filter:alpha(opacity=0);
+	left:0px;
+	width:100% !important;
+	visibility:visible;
+	border:1px solid #ccc;
+	border-right:none;
+}
+
+.closeConfirmOverlay{
+	width: 290px;
+	height: 85px;
+}
+.closeConfirmOverlay p{
+	padding-bottom:  8px;
+	font-family:arial;
+	width:100%;
+	padding-top:0;
+}
+.closeConfirmOverlay .closeArea{
+    background-image:url(images/closedOverlay.png);
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	right:5px;
+	height:18px;
+	width:18px;
+}
+.closeConfirmOverlay .buttonArea{
+	overflow: hidden;
+	padding-top:6px;
+	text-align: center;
+	width:100%;
+	margin:10px 0;
+}
+
+.closeConfirmOverlay .buttonArea .button1{
+	margin-right: 0px;
+}
+
+.closeConfirmOverlay table th,.closeConfirmOverlay table td{
+	text-align:left;
+	font-family:arial;
+}
+
+a#closeConfirmationYesButton {
+	margin-right: 0px;
+}
+
+a#unsaveButton span {
+	width:18px;
+	padding-left:7px;
+}
+
+.deleteConfirmOverlay{
+}
+.deleteConfirmOverlay p{
+	padding-bottom: 8px;
+	font-family:arial;
+	width:100%;
+}
+
+.deleteConfirmOverlay .buttonArea{
+	overflow: hidden;
+	padding-top:6px;
+	width:100%;
+}
+
+.deleteConfirmOverlay .buttonArea .button1 {
+	margin-right: 0px;
+}
+
+.deleteConfirmOverlay .cancelButton span,.closeConfirmOverlay .cancelButton span{
+	width:18px;
+	padding-left:7px;
+}
+
+body .ui-dialog div.messageContent {
+	font-family:arial;
+	padding-top:0px;
+}
+
+.messageContent .closeArea{
+    background-image:url(images/closedOverlay.png);
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	right:5px;
+	height:18px;
+	width:18px;
+}
+.messageContent .subPageTitle{
+	margin-bottom:8px;
+	padding-top:8px;
+}
+
+.messageContent .button1{
+	margin-top:15px;
+	margin-left:150px;
+	display:inline-block;
+}
+
+optgroup{
+	color:#ccc;
+	font-style:normal;
+}
+
+.ui-widget-header{
+	background:none;
+	border:none;
+	display:none;
+}
+
+/*
+body .ui-dialog .ui-dialog-content{
+	border: 10px solid #dadada;
+	margin:0;
+	padding:10px;
+}
+*/
+
+body .ui-dialog .ui-widget-content{
+	background: #fff;
+	padding: 0.4em;
+}
+
+body .ui-dialog{
+	padding:0;
+}
+
+body .ui-corner-all{
+	border-radius:0;
+}
+
+body .ui-widget-overlay{
+	position:fixed;
+}
+
+/*   Scroll Bar UI CSS    */
+.ui-scroll-container {
+	position: relative;
+	outline: none;
+}
+
+.ui-scroll-bar {
+	position: absolute;
+	right: 0px;
+	height: 285px;
+	width: 18px;
+	top: 0;
+	z-index: 100;
+}
+
+.ui-scroll-bar-top,.ui-scroll-bar-middle,.ui-scroll-bar-bottom {
+	width: 18px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.ui-scroll-bar-top {
+	background: url(images/bgScrollBarTop.png) no-repeat;
+	height: 7px;
+	top: 0;
+}
+
+.ui-scroll-bar-middle {
+	background: url(images/bgScrollBarBody.png) repeat;
+	height: 271px;
+	overflow: visible;
+}
+
+.ui-scroll-bar-bottom {
+	background: url(images/bgScrollBarBottom.png) no-repeat;
+	height: 7px;
+}
+
+.ui-scroll-bar-scroll {
+	position: relative;
+	left: 2px;
+	width: 14px;
+	top: -5px;
+	height: 100px;
+	cursor: pointer;
+	z-index: 101;
+}
+
+.ui-scroll-bar-scroll-top,.ui-scroll-bar-scroll-middle,.ui-scroll-bar-scroll-bottom
+	{
+	width: 14px;
+	height: 100%;
+	background: url(images/bgScrollpaneDrag.png) no-repeat;
+	overflow: hidden;
+}
+
+.ui-scroll-bar-scroll-top {
+	background-position: 0 0;
+	height: 10px;
+	top: 0px;
+}
+
+.ui-scroll-bar-scroll-middle {
+	background-position: 0 -10px;
+	top: 10px;
+	height: 80px;
+}
+
+.ui-scroll-bar-scroll-bottom {
+	background-position: 0 -227px;
+	height: 10px;
+	bottom: 0px;
+}
+.ui-scroll-content{
+	position: absolute;
+	width:100%;
+}
+.ui-content-outer-wrap{
+	position: absolute;
+	width:100%;
+}
+
+.noPaddingTop {
+	padding-top: 0px;
+}
+
+/*
+* header start
+*/
+.header {
+   background-repeat:repeat-x;
+   min-width:1180px;
+}
+
+#navigation {
+    width: 100%;
+	min-width: 1180px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#dstLogo {
+    float: left;
+    line-height: 72px;
+    margin-left:28px;
+}
+#dstLogo img,#dstLogo span{
+	vertical-align:middle;
+}
+
+
+#navigation ul {
+    float: right;
+}
+
+#navigation li, #WIPIcon { 
+    float: left;
+    height: 72px;
+    width: 130px;
+    text-align: center;
+    background: no-repeat right center transparent; /*for navigation split*/
+    
+}
+#navigation li.last { 
+    float: left;
+    height: 72px;
+    width: 130px;
+    text-align: center;
+    background: no-repeat right center transparent; /*for navigation split*/
+    
+}
+
+#navigation li.split {
+    width: 2px;
+    line-height: 72px;
+}
+
+#navigation li.split img {
+    vertical-align: middle;
+    display:inline-block;
+}
+
+#navigation li.split span{
+	vertical-align: middle;
+    display:inline-block;
+    height:0;
+}
+
+.inactiveIcon{
+	 margin-top:13px;
+}
+.activeImage{
+ 	margin-top:15px;
+}
+
+#navigation ul li .hide {
+    display:none;
+}
+
+#navigation li.enabled,#navigation li.selected{
+	cursor: pointer;
+}
+#navigation li.enabled,#navigation li.active{
+	border-top:0px;
+	/*margin-top:2px;*/
+} 
+/*header top menu*/
+body{
+	position: relative;	
+}
+#headerTopMenuContainer{
+	position: relative;	
+}
+ul.headerTopMenuDropdown{
+    list-style: none;
+    position: absolute;
+    display: none;
+    z-index: 10000;
+    top:72px;
+}
+
+ul.headerTopMenuDropdown li {
+	font-size: 13px;
+	padding: 0;
+	width: 162px;
+}
+
+
+ul.headerTopMenuDropdown li a,
+ul.headerTopMenuDropdown li label {
+    background: none;
+    text-indent: 0;
+    display: block;
+    height:35px;
+    line-height:35px;
+    vertical-align:middle;
+    width:92%;
+    border: none !important;
+    padding: 0 6px;
+
+}
+
+ul.headerTopMenuDropdown li.last {
+    background: none;
+}
+#ownerLabel{
+	margin-bottom:5px;	
+	font-size:13px;
+}
+#ownerLabelTitle{
+	font:bold 16px arial;
+	font-style:italic;
+	color:#999999;
+}
+#ownerLabelName{
+	font:normal 16px arial;
+	font-style:italic;
+	color:#999999;
+}
+.editVisibility {
+}
+
+.leftPadding {
+	padding-left: 30px;
+}
+
+#signonMask{
+	position:absolute;
+	top:0;
+	left:0;
+	background: url(images/preloader.gif) no-repeat center center;
+}
+
+.historyText {
+	font: normal 12px arial;
+	white-space: pre-wrap;
+}
+#logOut{
+	float:right; 
+	width:21px;
+	height:72px;
+    display:block;text-align: center;
+    background-image:url(images/logout.png) no-repeat center center;
+    over-flow:hidden;
+    text-decoration:none; position:relative;}
+
+
+/*
+* header end
+*/
+
+#deleteAttachmentDialog {
+	padding: 20px 10px;
+}
+
+#deleteAttachmentDialog .cancelButton span {
+	width: auto;
+}
+
+#deleteAttachmentDialog .buttonArea {
+	width: 150px;
+	margin: 10px auto 0px auto;
+}
+
+.browseTemplate{
+	margin:1px 0 0 1px;
+}
+
+.center {
+	text-align: center;
+}
+
+/* New layout elements (label removal) start */
+.pageContentWrapper {
+	overflow-y:auto;
+	padding:0 5px;
+	width: 910px;
+	height: 470px;
+}
+
+.pageWrapper { /*Used to display pages wider than what we used to*/
+	height:392px;
+	width:904px;
+	overflow-y:auto;
+	padding:0 5px;
+}
+.pageHeader { 
+	text-align: center; 	
+	color: #2a6892;
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 5px;
+ }
+
+.standardInput { /* Wrapper for input elements */
+    float: left;
+    margin: 0px;
+    padding-left: 10px; /* Allows required mark to live in padding area */
+    padding-top: 15px;
+}
+.standardInput .title{color:#333; font-weight:bold; padding-bottom:1px;} /* Coloring of the input element title the element */
+.standardInput .required{ /* Required marking in the generic wrapper for input elements */
+    float: left;
+    color: red;
+    margin-left: -10px; /* Allows required mark to live in padding area */
+}
+
+.standardControl span {
+	float: left;
+	color: #6E6E6E; 
+}
+
+.standardControl div {
+	height: 19px;
+	width: 17px;
+	cursor: pointer;
+	float: right;
+}
+
+.standardControl .addIcon {
+	background:url(/images/addFile.png) no-repeat center center;
+}
+.standardControl .delIcon {
+	background:url(/images/delFile.png) no-repeat center center;
+}
+
+/* Stop hilight of area when double clicked */
+.unselectable, .addIcon, .delIcon {
+	/* Note - IE9 and below must use html tag 'unselectable="on"' to perform this action */
+	-webkit-user-select: none; 	/* Chrome/Safari */        
+	-moz-user-select: none;    	/* Firefox */
+	-ms-user-select: none;     	/* IE10+ */
+	-o-user-select: none;		/* Future */
+	user-select: none;			/* Future */
+}
+
+.invisible {
+	visibility: hidden;
+}
+
+/* New layout elements end */
+
+.eownerArea {
+	width: 305px; 	
+}
+
+.esignatureDropdown {
+	width: 300px;
+}
+
+body .ui-widget .addressErrorDialog{
+	font-weight:normal;
+	font-family:arial;
+	padding:20px;
+}
+
+.addressErrorDialog .pageTitle{
+	font-size:16px;
+}
+.addressNotes{
+	line-height:15px;
+	padding:10px 0;
+}
+
+.addressErrors{
+	overflow:hidden;
+	padding:15px 0;
+}
+
+.addressSection{
+	border-top:1px solid #ccc;
+}
+.addressMessages{
+	float:left;
+	width:49.2%;
+}
+
+.errorMessageNotices{
+	padding-top:10px;
+}
+
+#buttonArea{
+	margin:15px 0;
+	text-align:center;
+}
+
+#buttonArea a{
+	display:inline-block;
+	padding-left:20px;
+}
+#buttonArea a span{
+	padding-right:26px;
+}
+
+.addressErrorMessage{
+	text-shadow:1px 1px 1px #fff;
+	color:#f00;
+	text-align: left;
+}

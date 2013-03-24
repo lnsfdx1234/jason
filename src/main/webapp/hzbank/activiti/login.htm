@@ -1,0 +1,11 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0054)http://localhost:8080/activiti-explorer/ui/APP/2/login -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">var setTarget = function() {  var uri = 'http://localhost:8080/activiti-explorer/ui/1/loginHandler';  var f = document.getElementById('loginf');  document.forms[0].action = uri;  document.forms[0].username.focus();};var styles = window.parent.document.styleSheets;for(var j = 0; j < styles.length; j++) {
+  if(styles[j].href) {    var stylesheet = document.createElement('link');
+    stylesheet.setAttribute('rel', 'stylesheet');
+    stylesheet.setAttribute('type', 'text/css');
+    stylesheet.setAttribute('href', styles[j].href);
+    document.getElementsByTagName('head')[0]                .appendChild(stylesheet);
+  }}
+function submitOnEnter(e) {  var keycode = e.keyCode || e.which;  if (keycode == 13) {document.forms[0].submit();}}
+</script><link rel="stylesheet" type="text/css" href="styles.css"><link rel="stylesheet" type="text/css" href="styles(1).css"></head><body onload="setTarget();" class="login-general"><div><iframe name="logintarget" style="width:0;height:0;border:0;margin:0;padding:0;"></iframe><form id="loginf" target="logintarget" onkeypress="submitOnEnter(event)" method="post" action="http://localhost:8080/activiti-explorer/ui/1/loginHandler"><table width="100%"><tbody><tr><td class="login-field-caption">用户名</td><td width="80%"><input class="login-field" type="text" name="username"></td></tr><tr><td class="login-field-caption">密码</td>    <td><input class="login-field" type="password" name="password"></td></tr></tbody></table><div><div onclick="document.forms[0].submit();" tabindex="0" class="login-button" role="button"><span>登录</span></div></div></form></div></body></html>

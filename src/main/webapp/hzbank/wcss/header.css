@@ -1,0 +1,104 @@
+
+
+.headerText {
+	display: block;
+	font-size: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+
+#navigation li.noSelectedTabLeftBorder{
+	border-left:0;
+}
+
+#navigation li.selectedTabBackground, #navigation li:HOVER, #navigation li.active {
+	background-color:rgba(83, 73, 83, 0.29);
+	border-left-color: #6F6F6F;
+    border-right-color: #6F6F6F;
+    background-image: none;
+}
+/*#logOut {background:url(images/logout.png) no-repeat center center;position:relative;} */
+#logOut span{
+	display:block; float:left; height:72px; width:2px;position:absolute;left:0px;
+    background:url(images/divider.png) no-repeat center center;}
+#logOut:hover span{
+	display:block; float:left; height:72px; width:2px;
+}
+#logOut:hover{
+	background-color:#303030;width:19px;
+    border-left:1px solid #6F6F6F;
+    border-right:1px solid #6F6F6F;
+    outline:none;-moz-outline:none}
+.logOut{
+	background:url(images/logout.png) no-repeat center center;
+	position:relative;
+}
+.logOutClose{
+	background:url(images/closeBtn.png) no-repeat center center;
+	position:relative;
+}
+.logOutClose:hover{
+    background-image:url(images/closeBtnHover.png) no-repeat center center;
+    }
+#navigation li:HOVER .headerText, #navigation li.active .headerText  {
+	display: block;
+}
+ 
+#navigation li.borderLeftTransparent{ 
+    border-left-color: transparent; 
+}
+
+#navigation li.borderRightTransparent{ 
+    border-right-color: transparent; 
+}
+
+#navigation li.selectedTabLeftBorder:{
+	border-left:1px solid #6F6F6F;
+}
+
+#navigation li.selectedTabRightBorder{
+	border-right:1px solid #6F6F6F;
+}
+
+#navigation li.noSelectedTabRightBorder{
+	border-right:0;
+}
+
+#navigation li.activePre { 
+    background-image: none;
+}
+
+#navigation li { 
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    background-image: url(images/verticallineShort.png);
+}
+#navigation li.last { 
+     background-image:no-repeat right center;
+}
+
+ul.headerTopMenuDropdown{
+    border: 1px solid #6f6f6f;
+    background: #303030;
+    border-top: none;
+}
+
+ul.headerTopMenuDropdown li {
+	background: url(images/drop-down-divider.gif) no-repeat bottom #303030;
+	color: #bdbdbd;
+}
+
+ul.headerTopMenuDropdown li a,
+ul.headerTopMenuDropdown li label {
+    color: #ffffff;
+}
+
+ul.headerTopMenuDropdown li a:hover{
+	background: #202020;
+	color: #fde1b4;
+}
+
+ul.headerTopMenuDropdown li label{
+	color: #bdbdbd;
+}
+
